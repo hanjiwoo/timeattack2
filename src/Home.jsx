@@ -82,9 +82,10 @@ export default function Home() {
                         return {
                           ...item,
                           isdone: !item,
-                          isdone,
                         };
                       }
+
+                      return item;
                     });
                   }}
                 >
@@ -132,6 +133,7 @@ export default function Home() {
                           isdone,
                         };
                       }
+                      return item;
                     });
                   }}
                 >
